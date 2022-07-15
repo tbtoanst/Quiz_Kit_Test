@@ -1,0 +1,30 @@
+.navbar{
+  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #1A1E30;
+}
+.navbar-logo{
+  color: #FAFAFA;
+  font-size: 30px;
+}
+
+.navbar-menu-item{
+  color: #e1e5eb;
+  font-size: 14px;
+}
+
+.navbar-menu-item:hover, .navbar-menu-item:focus{
+  color: #4bd1c6;
+  font-size: 14px;
+}
+
+.navbar-menu-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 30%;
+}

@@ -1,0 +1,24 @@
+.dashboard-container{
+  height: 100%;
+  background-color: #1A1E30;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.content{
+  color: #FAFAFA;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.start-btn{
+  margin-left: 50px;
+  padding: 25px 50px;
+  color: #FAFAFA;
+  background-color: dimgray;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid grey;
+}
