@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Login.css"
-import gg from "../../asset/google-icon.svg"
+import google from "../../asset/google-icon.svg"
+import cacao from "../../asset/speech-bubble-message.png"
 
 function Login() {
   return <div className="login-container">
@@ -8,14 +9,14 @@ function Login() {
     <div className="login-form">
       <div className="login-cacao">
         <button className="login-cacao-btn btn-radius">
-          <i></i>
-          <span>카카오로 시작하기</span>
+          <div className="cacao-icon"><img src={cacao} alt="Cacao" /></div>
+          <div className="cacao-caption" style={{ marginRight: "40px" }}><span>카카오로 시작하기</span></div>
         </button>
       </div>
       <div className="login-google">
         <button className="login-google-btn btn-radius">
-          <div className="google-icon"><img src={gg} alt="Google" /></div>
-          <span>구글로 시작하기</span>
+          <div className="google-icon"><img src={google} alt="Google" /></div>
+          <div className="google-caption"><span style={{ marginRight: "40px" }}>구글로 시작하기</span></div>
         </button>
       </div>
     </div>
